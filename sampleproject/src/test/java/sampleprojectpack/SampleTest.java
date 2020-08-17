@@ -11,7 +11,7 @@ public class SampleTest {
 	  System.setProperty("webdriver.chrome.silentOutput","true");
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium Automation\\Required Tools\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.navigate().to("https://www.facebook.com/");
+		driver.navigate().to("https://www.facebook.com");
 		Thread.sleep(5000);
 		driver.manage().window().maximize();
 		String val2=driver.getTitle();
