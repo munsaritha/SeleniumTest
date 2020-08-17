@@ -15,7 +15,9 @@ public class SampleTest {
 		Thread.sleep(5000);
 		driver.manage().window().maximize();
 		String val2=driver.getTitle();
+		String val3=driver.getCurrentUrl();
 		System.out.println(val2);
+		System.out.println(val3);
 		
 				driver.quit();
   }
